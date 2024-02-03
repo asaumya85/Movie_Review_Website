@@ -1,0 +1,60 @@
+
+
+/* .container {
+  max-width: 100%;
+  margin: 55px auto; /* Adjusted margin for better spacing */
+  /* background-repeat: repeat-y;
+  background-image: url("https://img.jakpost.net/c/2017/12/02/2017_12_02_36727_1512187950._large.jpg");
+  background-size: cover; /* Uncommented background-size */
+  /* background-position: center; /* Center the background image */
+  /* display: flex; or display: block; depending on your layout preference */
+  /* justify-content: center; Added justify-content to center the content horizontally */
+  /* align-items: center; Added align-items to center the content vertically */
+/* } */ */ */ */
+
+
+
+.login-container {
+  background-color: rgba(109, 57, 57, 0.269);
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: table;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  display: table;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  color: #ff0000;
+  margin: 5px 0;
+}
