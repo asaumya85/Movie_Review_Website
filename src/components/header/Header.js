@@ -15,8 +15,8 @@ const Header = () => {
             <div className="headerLeft">
                 <Link to="/" style={{"color":'gold' ,"fontSize":'50px'}}>CinemaSage</Link>
                 <Link to="/movies/popular" style={{textDecoration: "none"}}><span>Popular</span></Link>
-                <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span>Top Rated</span></Link>
-                <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span>Upcoming</span></Link>
+                // <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span>Top Rated</span></Link>
+                // <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span>Upcoming</span></Link>
                 <Button style={{marginLeft:"600px",textDecoration: "none",backgroundColor:"gold",color:"black",padding:"10px"}} onClick={()=> navigate('/Login')}><span>Login</span></Button>
             </div>
         </div>
